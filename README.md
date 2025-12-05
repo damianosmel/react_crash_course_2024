@@ -14,3 +14,14 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+# Steps following the tutorial
+- Initial step -> Vite + React working page
+Follow video and do the following commands:
+npm create vite@latest /home/user/where/to/add/react_project/folder
+cd /home/user/where/to/add/react_project/folder
+npm install //add node_modules
+npm run dev //run application on selected port (3000) of the localhost 
+**Result:** Vite + React webpage with count is button working all fine.
