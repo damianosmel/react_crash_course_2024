@@ -40,4 +40,9 @@ Add TailwindCSS using postCSS: https://tailwindcss.com/docs/installation/using-p
 
 therefore I have written myself the tailwind.config.js, postcss.config.js, src/index.css
 
-**Result:** webpage shows the word App with large font (5-xl)
+**Result:** webpage shows the word App with large font (5-xl).
+
+- Add components
+For the main parts of the webpage, add components 
+
+**Result:** webpage is built using components for the parts: navbar, hero, cards.
