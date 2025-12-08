@@ -20,8 +20,24 @@ If you are developing a production application, we recommend using TypeScript wi
 # Steps following the tutorial
 - Initial step -> Vite + React working page
 Follow video and do the following commands:
+
+```
 npm create vite@latest /home/user/where/to/add/react_project/folder
+
 cd /home/user/where/to/add/react_project/folder
+
 npm install //add node_modules
+
 npm run dev //run application on selected port (3000) of the localhost 
+```
+
 **Result:** Vite + React webpage with count is button working all fine.
+
+- Add Tailwindcss
+Add TailwindCSS using postCSS: https://tailwindcss.com/docs/installation/using-postcss
+
+`npx tailwindcss init -p` -> does not work
+
+therefore I have written myself the tailwind.config.js, postcss.config.js, src/index.css
+
+**Result:** webpage shows the word App with large font (5-xl)
