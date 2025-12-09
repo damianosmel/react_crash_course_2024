@@ -56,3 +56,9 @@ Add JobListings and JobListing (single job) as components
 - Add button to allow user to see more or less for a job description
 
 **Result:** webpage contains a button on the job listing, pressing the button shows more of its description and pressing again the button shows less
+
+- Add map marker as icon for the location on job listing
+
+`npm install react-icons`
+
+**Result:** webpage shows map-marker on the location of each job
