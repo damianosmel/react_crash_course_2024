@@ -52,3 +52,7 @@ For the main parts of the webpage, add components
 Add JobListings and JobListing (single job) as components
 
 **Result:** webpage renders the jobs, with information got from each job element in jobs.json
+
+- Add button to allow user to see more or less for a job description
+
+**Result:** webpage contains a button on the job listing, pressing the button shows more of its description and pressing again the button shows less
