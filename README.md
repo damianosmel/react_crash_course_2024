@@ -48,6 +48,7 @@ For the main parts of the webpage, add components
 **Result:** webpage is built using components for the parts: navbar, hero, cards.
 
 - Add JobListings component
-Add JobListings as a component
+
+Add JobListings and JobListing (single job) as components
 
 **Result:** webpage renders the jobs, with information got from each job element in jobs.json
