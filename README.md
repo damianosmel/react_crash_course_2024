@@ -68,3 +68,7 @@ Add JobListings and JobListing (single job) as components
 `npm install react-router-dom`
 
 **Result:** webpage shows navbar, hero, job cards and view all jobs
+
+- Add `<Link>` instead of `<a>` tags not to have change in the banner when we click a link
+
+**Result:** webpage links go to their respective page without banner to be refreshed
