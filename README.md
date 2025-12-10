@@ -72,3 +72,7 @@ Add JobListings and JobListing (single job) as components
 - Add `<Link>` instead of `<a>` tags not to have change in the banner when we click a link
 
 **Result:** webpage links go to their respective page without banner to be refreshed
+
+- Add NotFound page
+
+**Result:** when user requests a non-existing page, we go the not-found page
