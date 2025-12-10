@@ -76,3 +76,7 @@ Add JobListings and JobListing (single job) as components
 - Add NotFound page
 
 **Result:** when user requests a non-existing page, we go the not-found page
+
+- Render Jobs tab using JobListings component
+
+**Result:** rendered jobs page with all jobs
