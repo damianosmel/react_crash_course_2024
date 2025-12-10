@@ -62,3 +62,9 @@ Add JobListings and JobListing (single job) as components
 `npm install react-icons`
 
 **Result:** webpage shows map-marker on the location of each job
+
+- Use routes to enable usage of main layout and home page
+
+`npm install react-router-dom`
+
+**Result:** webpage shows navbar, hero, job cards and view all jobs
