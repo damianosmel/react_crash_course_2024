@@ -95,4 +95,6 @@ Add JobListings and JobListing (single job) as components
 
  - Limit number of displayed jobs in home using API
 
- - Create job page and add effect to load the data for the job when rendering the page
+ - Create job page and show job data, using two ways:
+   - add effect to load the data for the job when rendering the page
+   - loader of routes
