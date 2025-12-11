@@ -94,3 +94,5 @@ Add JobListings and JobListing (single job) as components
  ` npm i react-spinners `
 
  - Limit number of displayed jobs in home using API
+
+ - Create job page and add effect to load the data for the job when rendering the page
