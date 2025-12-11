@@ -80,3 +80,15 @@ Add JobListings and JobListing (single job) as components
 - Render Jobs tab using JobListings component
 
 **Result:** rendered jobs page with all jobs
+
+ - Add json-server to mock an API just with a json
+ Extra: add spinner for the jobs when you await the response from the API
+
+ ```
+    npm i -D json-server
+    add this key-value pair in scripts dictionary in README.md
+    "server": "json-server --watch src/jobs.json --port 5000"
+    npm run server
+ ```
+
+ ` npm i react-spinners `
