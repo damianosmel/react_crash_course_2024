@@ -10,8 +10,9 @@ const JobPage = () => {
     useEffect(() => {
         const fetchJob = async () => {
             try {
-                const res = await fetch(`/api/job/${id}`);
+                const res = await fetch(`/api/jobs/${id}`);
                 const data = await res.json();
+                console.log(data);
                 setJob(data);
             } catch (error) {
                 console.log('Error fetching data', error);
@@ -25,7 +26,7 @@ const JobPage = () => {
 
   return (
     loading ? <Spinner /> : (
-        <h1>Job</h1>
+        <h1>{job.title}</h1>
     )
   );
 };
