@@ -98,3 +98,5 @@ Add JobListings and JobListing (single job) as components
  - Create job page and show job data, using two ways:
    - add effect to load the data for the job when rendering the page
    - loader of routes
+
+ - Add html for the add-job page
