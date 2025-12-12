@@ -100,3 +100,5 @@ Add JobListings and JobListing (single job) as components
    - loader of routes
 
  - Add html for the add-job page
+
+ - Add POST functionality on the add-job page
