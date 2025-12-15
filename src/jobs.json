@@ -85,17 +85,17 @@
       }
     },
     {
-      "id": "3731",
-      "title": "Architect",
+      "id": "686b",
+      "title": "Architect Engineer",
       "type": "Full-Time",
       "location": "Athens",
-      "description": "description",
-      "salary": "$50K - 60K",
+      "description": "Re-design urban buildings of last century.",
+      "salary": "$60K - 70K",
       "company": {
         "name": "AKTOR",
-        "description": "Aktor is ..",
+        "description": "AKTOR is one of the largest construction companies in Greece.",
         "contactEmail": "info@aktor.com",
-        "contactPhone": "+302106968789"
+        "contactPhone": "+302106869789"
       }
     }
   ]

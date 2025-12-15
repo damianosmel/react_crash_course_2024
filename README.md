@@ -102,3 +102,8 @@ Add JobListings and JobListing (single job) as components
  - Add html for the add-job page
 
  - Add POST functionality on the add-job page
+
+ - Add DELETE functionality on the job page
+ 
+  install package to show notification after deletion of job:
+  `npm i react-toastify`

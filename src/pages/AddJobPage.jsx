@@ -2,6 +2,7 @@ import { useState } from "react";
 import { BiSleepy } from "react-icons/bi";
 import { RiContactsBookUploadLine } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 const AddJobPage = ({ addJobSubmit }) => {
   const [title, setTitle] = useState("");
@@ -33,6 +34,8 @@ const AddJobPage = ({ addJobSubmit }) => {
       },
     };
     addJobSubmit(newJob);
+
+    toast.success("Job added successfully");
     return navigate("/jobs");
   };
 
