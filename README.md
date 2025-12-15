@@ -28,7 +28,7 @@ cd /home/user/where/to/add/react_project/folder
 
 npm install //add node_modules
 
-npm run dev //run application on selected port (3000) of the localhost 
+npm run dev //run applicationon, on development mode, on selected port (3000) of the localhost 
 ```
 
 **Result:** Vite + React webpage with count is button working all fine.
@@ -91,7 +91,7 @@ Add JobListings and JobListing (single job) as components
     npm run server
  ```
 
- ` npm i react-spinners `
+ `npm i react-spinners`
 
  - Limit number of displayed jobs in home using API
 
@@ -104,6 +104,14 @@ Add JobListings and JobListing (single job) as components
  - Add POST functionality on the add-job page
 
  - Add DELETE functionality on the job page
- 
+
   install package to show notification after deletion of job:
   `npm i react-toastify`
+
+ - Add PUT functionality to edit a job
+
+Make webpage available on production mode:
+ ```
+    npm run build
+    npm run preview
+ ```
